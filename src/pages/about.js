@@ -1,10 +1,12 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import Head from "../components/head";
 
 const AboutPage = () => {
 	return (
 		<Layout>
+			<Head title="About" />
 			<h1>About Me</h1>
 			<p>
 				I am originally from Atlanta, GA but moved to Los Angeles 7 years ago. I
